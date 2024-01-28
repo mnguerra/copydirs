@@ -1,0 +1,4 @@
+/home/user/backups/
+Documents
+Projects
+Images
