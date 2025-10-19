@@ -1,12 +1,14 @@
 #!/bin/bash
-## 
-## Author: Manel Guerra
-## Date: January 2023
-## Last revised 28/01/2024
-##
-## Usage: copydirs (or ./copydirs.sh)
-##
-## Makes a copy of a list of directories in a path (see config.txt)
+# 
+# Author: Manel Guerra
+# Date: January 2023
+# Last revised 28/01/2024
+#
+# Makes a copy of a list of directories in a path (see config.txt)
+#
+# Usage: copydirs (or ./copydirs.sh)
+#
+########################
 
 # definicio directori a crear 
 DIR_BACKUP="$(date +%Y%m%d)"
