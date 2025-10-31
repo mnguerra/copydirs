@@ -2,9 +2,9 @@
 # 
 # Author: Manel Guerra
 # Date: January 2023
-# Last revised 28/01/2024
+# Last revised 31/10/2025
 #
-# Makes a copy of a list of directories in a path (see config.txt)
+# Makes a copy of a list of directories in a path (see copydirs_lst.txt)
 #
 # Usage: copydirs (or ./copydirs.sh)
 #
@@ -19,7 +19,7 @@ echo
 echo "copydirs (2024 Manel Guerra)"
 echo
 
-read -rd '' desti llista_dirs < config.txt
+read -rd '' desti llista_dirs < copydirs_lst.txt
 
 echo "... ruta de destí on es farà la còpia: [$desti]"
 echo "... carpeta que es crearà: [$DIR_BACKUP]"

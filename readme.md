@@ -4,24 +4,24 @@
 
 This little utility copies a list of directories in a specific path. Its purpose is to serve as very poor utility of backup, without any complication.
 
-It copies the list of directories (with the same structure they have in its original place) to a specific path where it adds a new directory with the data of the copy (yyyymmdd).
+It copies the list of directories (with the same structure they have in its original place, same volume, no incremental copy) to a specific path where it adds a new directory with the data of the copy (yyyymmdd).
 
-Having a per data structure allows you to have some sort of backups, ordered by date (of course, if you want more advanced characteristics, as incremental copies and so on, you can use any of the available or commercial free tools).
+Having a per data structure allows you to have some sort of backups, ordered by date (of course, if you want more advanced characteristics, as incremental copies and so on, you can use any of the available free and more advanced tools).
 
 
 ## Installation
 
-1. Download copydirs.sh wherever you want.
+1. Download copydirs.sh and copydirs_lst.txt wherever you want.
 2. `chmod u+x ./copydirs.sh`
-3. Update config.txt
-4. Execute
+3. Update copydirs_lst.txt
+4. Execute copydirs.sh
 
 
 ## Usage
 
-The only thing to do is to update the file config.txt:
+The only thing to do is to update the file copydirs_lst.txt:
 - First line is the destination path
-- Rest of the lines are the directories to copy
+- Rest of the lines are the directories to copy from the source drive
 
 
 ## Copyright and License

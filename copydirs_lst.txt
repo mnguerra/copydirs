@@ -1,0 +1,9 @@
+/run/media/manel/COPIA_DADES/copia_seguretat/manel
+Documents
+Imatges
+Projectes
+Públic
+Vídeos
+.thunderbird
+.face
+.gramps
