@@ -2,9 +2,9 @@
 
 ## Overview
 
-This little utility copies a list of directories in a specific path. Its purpose is to serve as very poor utility of backup, without any complication.
+This little utility copies a list of directories in a specific path. Its purpose is to serve as very little utility of backup, without no complication, time-stamping and so on.
 
-It copies the list of directories (with the same structure they have in its original place, same volume, no incremental copy) to a specific path where it adds a new directory with the data of the copy (yyyymmdd).
+It copies a list of directories (with the same structure they have in its original place, same size - no incremental copy) to a specific path where it adds a new directory with the data of the copy (yyyymmdd).
 
 Having a per data structure allows you to have some sort of backups, ordered by date (of course, if you want more advanced characteristics, as incremental copies and so on, you can use any of the available free and more advanced tools).
 
@@ -16,17 +16,24 @@ Having a per data structure allows you to have some sort of backups, ordered by 
 3. Update copydirs_lst.txt
 4. Execute copydirs.sh
 
+You can also add copydirs to your local path.
+
 
 ## Usage
 
-The only thing to do is to update the file copydirs_lst.txt:
+1. Update file copydir_lst.txt if its required (changes in the list of directories, i.e.)
+2. Execute '$ copydirs.sh'
+
+
+## Structure of the file copydirs_lst.txt
+
 - First line is the destination path
-- Rest of the lines are the directories to copy from the source drive
+- Rest of the lines are the directories to copy from the local drive
 
 
 ## Copyright and License
 
-Copyright (c) 2024 Manel Guerra
+Copyright (c) 2024 Manel Guerra (https://www.manelguerra.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
