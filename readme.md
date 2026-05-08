@@ -12,7 +12,7 @@ Having a per data structure allows you to have some sort of backups, ordered by 
 ## Installation
 
 1. Download copydirs.sh and copydirs_lst.txt wherever you want.
-2. `chmod u+x ./copydirs.sh`
+2. `chmod u+x copydirs.sh`
 3. Update copydirs_lst.txt
 4. Execute copydirs.sh
 
